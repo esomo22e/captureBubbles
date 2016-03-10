@@ -119,3 +119,10 @@ void mousePressed() {
   fill(0);
   rect(0, 0, width, height);
 }
+
+void keyPressed(){
+  
+  if(key == 's' || key == 'S'){
+    saveFrame();
+  }
+}
